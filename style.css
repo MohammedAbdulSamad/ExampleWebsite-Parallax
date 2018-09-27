@@ -1,0 +1,96 @@
+body, html {
+    margin: 0;
+    height: 100%;
+    font-family: Century Gothic, Arial;
+}
+
+.title {
+    font-size: 200px;
+    margin-left: 60%;
+    top: 10%;
+    position: absolute;
+    font-weight: 1000;
+}
+
+.side-nav {
+    height: 100%;
+    width: 150px;
+    position: fixed;
+    background-color: #914d00;
+    overflow: hidden;
+}
+
+.side-nav a {  
+    text-decoration: none;
+    display: block;
+    padding: 15px 5px;
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.side-nav a:hover {
+    background-color: #ffcd96;
+}
+
+.parallax {
+    height: 100%;   
+    
+    background-image: url(images/back.png);
+    background-position: center;
+    background-size: cover; 
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.aboutTitle {
+    color: white;
+    margin-left: 25%;
+    margin-top: 500px;
+    position: absolute;
+    text-align: center;
+    font-size: 62px;
+}
+
+.aboutText {
+    margin-left: 50%;
+}
+
+.wrapper {
+    background-color: transparent;
+    height: 100%;
+
+}
+
+.teamTitle {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    font-size: 30px;
+    color: white;
+}
+
+.intro-text {
+    top: 30%;
+    position: absolute;
+    width: 700px;
+    text-align: justify;
+    text-justify: inter-word;
+    left: 60%;
+    letter-spacing: 5px;
+    font-size: 20px;
+    box-sizing: border-box;
+} 
+
+.about-text {
+    top: 130%;
+    position: absolute;
+    width: 700px;
+    text-align: justify;
+    text-justify: inter-word;
+    left: 60%;
+    letter-spacing: 5px;
+    font-size: 20px;
+    box-sizing: border-box;
+} 
